@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
 
+import './rxjs-operators';
+
 @Component({
-  selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  moduleId:module.id,
+  selector: 'app',
+  templateUrl:'app.component.html'
+  
 
 })
 
-export class AppComponent  { name = 'Angular2 Startup by Ignacio Oliveros'; }
+export class AppComponent  { name = 'Angular2 Startup'; }
